@@ -1,0 +1,76 @@
+@charset "UTF-8";
+*{
+	margin:0px;
+}
+#maindiv1{
+    height: 100vh;
+    /* padding: 80px 450px; */
+    text-align: center;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://img.freepik.com/free-photo/modern-bookstore-showcasing-rows-vibrant-books_60438-3565.jpg?w=826&t=st=1728391374~exp=1728391974~hmac=29edb0f2663a6958a72afc34127caf2402d539e57da0b6d5aff2efe2420402e7);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#signup1,#signup2{
+    border-radius: 2%;
+    box-shadow: 0px 0px 20px 5px white;
+    background-color:white;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    padding: 30px 40px;
+    margin-left: 20px;
+}
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#form1,#form2{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: center; */
+    row-gap: 20px;
+}
+.label{
+	text-align: left;
+}
+.submit{
+	display: grid;
+    grid-template-columns: 1fr;
+}
+.pwd[type = "password"]{
+    outline: none;
+}
+#p1,#p2,#p3,#p4{
+    display: none;
+}
+#para1,#para2,#par3,#para4,#spansubmit1,#spansubmit2{
+    border: none;
+}
+.pwd{
+    border: none;
+}
+.spanpwd{
+    border: 1px solid black;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: blue;
+}
+
+a:active{
+    color: black;
+}
